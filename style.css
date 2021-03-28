@@ -1,0 +1,76 @@
+body{
+    background-color: gainsboro;
+}
+.main_contain{
+    margin-top: 80px;
+    display: flex;
+    width: auto;
+    height: 550px;
+    margin-left: 350px;
+    margin-right: 350px;
+    box-shadow: 40px 15px 20px #888888;
+}
+button{
+ padding-left: 20px;
+ padding-right: 20px;
+ height: 550px;
+}
+.img_reverse{
+    transform: rotateY(10deg);
+}
+.gray-container{   
+    position: relative;
+    top: -175px;
+    height: 150px;
+    background-color: black;
+    opacity: 0.8;
+}
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+p{
+    margin-top: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 40px;
+    opacity: 0.7;
+}
+#thumbnails{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 600px;
+    width: 800px;
+    height: 60px;
+    position: relative;
+}
+.box{  
+    border: 5px solid rgba(255,255,255,.5);
+    box-shadow: 0px 5px 8px 1px #888888;
+}
+.active{
+    box-shadow: 0px 4px 6px 1px black;
+}
+.title {
+    display: none;
+    position: relative;
+    left: -80px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: grey;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    top: -60px;
+    opacity: 0.9;
+  }
+
+  .box:hover .title {
+    display: block;
+  }
